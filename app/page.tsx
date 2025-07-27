@@ -126,7 +126,7 @@ function StartScreen({ onStart }: { onStart: () => void }) {
           onClick={onStart}
           className="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 text-white px-6 sm:px-8 py-3 sm:py-4 text-lg sm:text-xl rounded-full shadow-lg transform hover:scale-105 transition-all duration-300 w-full sm:w-auto"
         >
-          Vamos explorar um pouco sobre nossa história💞
+          Vamos explorar nossa história💞
         </Button>
       </div>
     </div>
@@ -759,7 +759,7 @@ export default function AnniversaryApp() {
 
   // CUSTOMIZE: Replace with your own background music URL
   useEffect(() => {
-    const audio = new Audio("./music.mp3");
+    const audio = new Audio("/music.mp3");
     audio.loop = true;
     audio.volume = 0.3;
 
